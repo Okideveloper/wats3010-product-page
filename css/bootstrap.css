@@ -1,6 +1,13 @@
 
-.img-fluid  {
-    display: block;
-    max-width: 100%;
-    margin: auto;
+
+ .bg-main {
+    background-color: rgba(69, 191, 69, 0.44);
+    font-color: black;
+    }
+
+
+.btn {
+    margin: 0 15px;
+    width: 100%;
 }
+
