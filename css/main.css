@@ -22,16 +22,20 @@ h2  {
     text-align: center;
 }
 
+
 p   {
-    display: block;
+    display: inline-block;
     font-family: Georgia;
     text-align: center;
-    width: 700px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
     } 
+    
 
 img {
     position: relative;
     right: 400px;
     padding: 30px;
+    padding-left: 100px;
     }
 
