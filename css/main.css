@@ -4,22 +4,18 @@ html  {
     font-family: Georgia;
 }
 
-body {
-    padding-top: 10px; 
+body { 
     text-align: center;
     background-color: rgba(211, 199, 197, 1);
+    padding-top: 10px;
     }
-
-h3 {
- text-align: center;
-}
 
 h2  {
     text-shadow: 2px 2px #6EA8DB;
-    float: right;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
-    text-align: center;
+    display: inline-block;
 }
 
 
@@ -32,7 +28,16 @@ p   {
     } 
     
 
-img {
+    
+    .product    {
+    padding-top: 100px;
+    margin: auto;
+    }
+
+
+
+
+/*mg {
     position: relative;
     right: 400px;
     padding: 30px;
