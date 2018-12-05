@@ -1,10 +1,12 @@
 
 
- .bg-main {
-    background-color: rgba(69, 191, 69, 0.44);
-    font-color: black;
-    }
 
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+ 
 
 .btn {
     margin: 0 15px;

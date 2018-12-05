@@ -19,6 +19,11 @@ h2  {
 }
 
 
+ul {
+    list-style-position: inside;
+    
+}
+
 p   {
     display: inline-block;
     font-family: Georgia;
@@ -29,18 +34,10 @@ p   {
     
 
     
-    .product    {
+.product    {
     padding-top: 100px;
     margin: auto;
     }
 
 
-
-
-/*mg {
-    position: relative;
-    right: 400px;
-    padding: 30px;
-    padding-left: 100px;
-    }
 
