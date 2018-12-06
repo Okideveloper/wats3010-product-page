@@ -12,3 +12,11 @@
     margin: 0 15px;
 }
 
+.carousel-item  {
+    height: 300px;
+    min-height: 246px;
+}
+
+.img-responsive {
+    
+}
