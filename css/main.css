@@ -17,12 +17,8 @@ h2  {
     display: inline-block;
 }
 
-.img-fluid   {
-    
-    position: relative;
-    left: 30px;
-    bottom: 40px;
-    top: 55px; 
+bg-color  {
+    background-color: rgba(62, 69, 81, 0.7);
 }
 
 
@@ -34,11 +30,6 @@ ul {
     color: white;
     }
 
-.btn-purchase   {
-    position: relative;
-    padding-left: 80px;
-    padding-bottom: 60px;
-    }
     
     .btn-success    {
         position: relative; 
@@ -62,6 +53,10 @@ p   {
     padding-top: 100px;
     margin: auto;
     }
+    
+    .bg-default {
+    background-color: #d81b60;
+}
 
 
 

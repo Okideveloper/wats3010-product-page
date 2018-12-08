@@ -17,6 +17,13 @@
     min-height: 246px;
 }
 
-.img-responsive {
-    
+.img-fluid {
+    position: relative;
+    left: 5px;
+    bottom: 40px;
+    top: 55px;
+}
+
+.jumbotron-fluid    {
+    background-image: url('images/about-background.jpg');
 }

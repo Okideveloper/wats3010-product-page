@@ -15,7 +15,7 @@
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+ 
         <!-- End Bootstrap CSS Framework -->
 
         <!-- FontAwesome (https://fontawesome.com/how-to-use/svg-with-js#basic-use) -->
@@ -32,13 +32,14 @@
 
       
         <!-- Navbar -->
-        
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-          <div class="container">
+         <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
+        <div class="container-fluid">
+      
             <a class="Navbar" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
+        
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav ml-auto">
                 <li class="active">
@@ -61,7 +62,10 @@
               </ul>
                 </div>
                  </div>
-                    </nav>
+                 </div>
+            </nav>
+                    
+                    
         
     
 
@@ -69,17 +73,14 @@
 
 
                    <!--About Section --> 
-        
-          <div class="mask rgba-gradient align-items-center">
-            <!-- Content -->
-            <div class="container-fluid">
-              <!--Grid row-->
+        <div class="jumbotron-fluid">
+        <div class="mask rgba-gradient align-items-center" id="home">
               <div class="row wow fadeIn">
                 <!--Grid column-->
                 <div class="col-md-12 mb-4 white-text text-center wow fadeIn">
                   <h3 class="display-3 font-weight-bold white-text mb-0 pt-md-5 pt-5">API Superstore</h3>
                   <hr class="hr-light my-4 w-75">
-                  <h4 class="subtext-header mt-2 mb-4">We're here to help!</h4>
+                  <h4 class="display-4">We're here to help!</h4>
                      </div>
                       </div>
                        </div>
@@ -88,89 +89,86 @@
        
      
      
-       
+       <div class="container">
        <div class="row" id="about">
         <div class="col-lg-6">
-          <img class="img-fluid rounded-circle" src="images/about-technology.jpg" class="img-responsive" alt="technology">
+          <img class="img-fluid rounded-circle float-left" src="images/about-technology.jpg" alt="technology">
         </div>
-        <div class="col-lg-6">
-          
-          <h2>About us</h2>
+        
+        <div class="col-lg-6">  
+          <h2 class="mb-4">About us</h2>
           <p>We are here to serve your needs when looking for an API for your computer or mobile devices. Let’s first touch base what an API is and how you can utilize its functions. Application Programming Interface (API) is a set of routines, protocols and tools for building software applications. This allows the apps on your phone to connect to the internet. Your commands are sent to the server, performs the necessary actions and sends it right back to your phone. <strong>BOOM!</strong>  You have the works of an API!</p>
           </br>
 <p>We here at the API Superstore execute the same process with no effort from you. Let us gather the data online, tweak the structure to fit your needs and we will send it right back to you like a shiny new car you just picked out!</p>
 <br>
 <p>All we need from you, is to take your time, review our site and watch our informative video. Once you familiarize yourself with our products and wish to proceed, fill out your contact information. You will receive an email from us shortly with instructions on how to select your API products.</p>
-
-        </div>
+   </div>
+    </div>
       </div>
-     
+       
+     <!--/About section-->
     
-    
-     
-     <!--End of About section-->
-     
-     
-     
-     <!--Product Section-->
      
     
    <!--Video-->  
-     
-<h2>How we can help you!</h2>
+      <div class="container">
+       <h2 class="mb-5">How we can help you!</h2>
      
      <div class="row" id="about">
-       <div class="container"> 
          <div class="col-lg-6 mx-auto">
             <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" width="560" height="325" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen"></iframe>
+<iframe class="embed-responsive-item" width="560" height="325" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen">
+   </iframe>
         </div>
          </div>
           </div>
            </div>
                        
-      <!--Video ends-->
+      <!--/Video-->
       
       
         <!--Product Section-->    
       
-
-    <div class="row mb-5" id="product">
-    <h2>Our Product</h2>
-
-        <!--Grid column-->
-        <div class="col-md-12">
-        <div class="view" style="background-image: url('images/about-background.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      
+       <div class="jumbotron-fluid bg-dark col-md-12 class="bg-color" id="product">
+      <h2 class="mb-5 display-4">Our Product</h2>
+         
+         <div class="row"> 
+           <div class="col-md-12">
+          <div class="view" style="background-image: url('images/about-background.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
                 <div class="text-black text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-  
-               <div class="col-lg-6">
+                                    
+                <div class="row col-lg-6 mx-auto">                     
+             
           <ul>                        
               <li><strong>24/7</strong>customer service</li>
-              <li>Easy and FULL access to our tools</li>
-              <li>Easy to use Interface</li>
+              <li>FULL access to our tools</li>
+              <li>Downloadable resources</li>
               <li>API Catolog</li>
-              <li>30-day Money back guarantee </li>
+              <li>30-day Money back guarantee</li>
+              <li>Monthly discounts</li> 
           </ul>
-           </div>
-        <div class="btn-purchase">
-        <div class="row">
-        <div class="col-lg-6">
-          <img class="img-fluid rounded" src="images/buy-now.png" width="500" height="500" alt="purchase">
-          <a class="btn btn-success btn-rounded"><i class="fa fa-clone"></i> $20.99</a>
-                      </div>
+           </div> 
+             <div class="btn-purchase w-100 mr-100">
+              <div class="col-xl-6 d-block mx-auto">
+                <img class="img-fluid rounded" src="images/buy-now.png" alt="purchase"> 
+            <a class="btn btn-success rounded"><i class="fa fa-clone"></i> $20.99</a>
                      </div>    
-                   </div>           
-                 </div>
-               </div>
-             </div>
-             </div>
+                       </div> 
+                         </div>
+                          </div>
+                          </div>
+                          </div>
+                          </div>
+                                   
+                 
+         
+   
+   <!--/product section-->
    
    
-   <!--end of product section-->
-   
-   
-   <div class="container-fluid" id="testimonials">
-   <h2>Testimonials</h2>
+   <div class="jumbotron-fluid" id="testimonials">
+   <h2 class="display-4">Testimonials</h2>
  
  <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
 
@@ -219,7 +217,7 @@
       <div class="carousel-caption">
         <div class="animated fadeInDown">
           
-                <p><font size="5px" color="black">“I am not the type of person that writes reviews, but your products and customer service were amazing, <br> even when I had a thousand questions, you made it easy for me to understand!”- Ryan T.</font></p>
+        <p><font size="5px" color="black">“I am not the type of person that writes reviews, but your products and customer service were amazing, <br> even when I had a thousand questions, you made it easy for me to understand!”- Ryan T.</font></p>
         </div>
       </div>
       <!--Caption-->
@@ -263,133 +261,179 @@
 </div>
  
  
- 
- 
- 
- 
- 
- <!--<h2>Testimonials</h2>
- 
- <div id="testimonials" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner mt-5">
-    <div class="carousel-item active" id="testimonials">
-      <p> “Thank you, API Superstore for helping me put my ideas into action! You made this process a breeze.<br> I recommend your services!”- Adam H.</p>
-    </div>
-    <div class="carousel-item">
-      <p> “I am not the type to write reviews, but your products and customer service were amazing,<br> even when I had a thousand questions, you made it easy for me to understand!”- Ryan T.</p>
-    </div>
-    <div class="carousel-item">
-      <p> “My experience with your products were straight forward and easy to use. You saved me SO MUCH Time and MONEY!<br> I am a forever customer!”- Ashley R.</p>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
-<!--End of Testimonials-->
+<!--/Testimonials-->
+
 
 <!--Contact Us-->
 
 
 
+<div class="contanier">
+
+<div class="jumbotron jumbotron-fluid bg-info text-white">
+  <div class="container">
+    <h2 class="display-4 mb-5 text-center">Contact Us</h2>
 
 
-<div class="row" id="contact">
-        <div class="col-lg-8 mt-5 mx-auto">
-    
-          <h2>Send us a Message</h2>
-          
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="control-group form-group">
-              <div class="controls">
 
-                <label>Full Name:</label>
-                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                <p class="help-block"></p>
-              </div>
+  
+ <div class="row">
+ 
+    <div class="col-md-9 mb-md-0 mb-5">
+
+      <form>
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="contact-name" class="form-control">
+              <label for="contact-name" class="">Your name</label>
             </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Phone Number:</label>
-                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-              </div>
+          </div>
+         
+
+          <!-- Grid column -->
+          <div class="col-md-6">
+            <div class="md-form mb-0">
+              <input type="text" id="contact-email" class="form-control">
+              <label for="contact-email" class="">Your email</label>
             </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Email Address:</label>
-                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Message:</label>
-                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-              </div>
-            </div>
-            <div id="success"></div>
-            <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
-          </form>
+          </div>
+          <!-- Grid column -->
+
         </div>
-      </div>
-   
+        <!-- Grid row -->
 
-      
-        
-      
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-12">
+            <div class="md-form mb-0">
+              <input type="text" id="contact-Subject" class="form-control">
+              <label for="contact-Subject" class="">Subject</label>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-12">
+            <div class="md-form">
+              <textarea type="text" id="contact-message" class="form-control md-textarea" rows="3"></textarea>
+              <label for="contact-message">Your message</label>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </form>
+
+      <div class="text-center text-md-center mx-auto">
+        <a class="btn btn-primary btn-lg">Send</a>
+      </div>
+
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-3 text-center">
+      <ul class="list-unstyled mb-0">
+        <li>
+          <i class="fa fa-map-marker fa-2x blue-text"></i>
+          <p>San Francisco, CA 94126, USA</p>
+        </li>
+        <li>
+          <i class="fa fa-phone fa-2x mt-4 blue-text"></i>
+          <p>+ 01 234 567 89</p>
+        </li>
+        <li>
+          <i class="fa fa-envelope fa-2x mt-4 blue-text"></i>
+          <p class="mb-0">contact@example.com</p>
+        </li>
+      </ul>
+    </div>
+    </div>
+</div>
+</div>
+</div>    
 
    
   <!-- Footer -->
   
-  
-<footer class="page-footer font-small special-color-dark pt-4">
+  <footer>
+  <div class="jumbotron-fluid">
+        <div class="mask rgba-gradient align-items-center" id="home">
+              
+
+<footer class="page-footer font-small cyan darken-3">
 
     <!-- Footer Elements -->
     <div class="container">
 
-      <!-- Social buttons -->
-      <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1">
-            <i class="fa fa-facebook"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-tw mx-1">
-            <i class="fa fa-twitter"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-gplus mx-1">
-            <i class="fa fa-google-plus"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a class="btn-floating btn-li mx-1">
-            <li class="fa fa-linkedin"> </i>
-          </a>
-          </li>
-      </ul>
-      <!-- Social buttons -->
+      <!-- Grid row-->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Pinterest-->
+            <a class="pin-ic">
+              <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
 
     </div>
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href=""> API Superstore</a>
+    <div class="col-md text-md-center">
+    <small>&copy;2018 API Superstore &amp; creator Amanda Teague</small>
+      
     </div>
-    <!-- Copyright -->
-
-  </footer>      
+    </div>
+      </div>
+        </div>
+        
+    </footer>      
         
 
-     
-        
         
         
 
@@ -403,11 +447,28 @@
 
         <!-- TODO: Create a call to action link to get users to sign up for the
              service. -->
+        <!-- SCRIPTS -->
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/mdb.min.js"></script>
-        <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+          <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="js/jquery.js/jquery.min.js"></script>
+          
+          <!-- Bootstrap core JavaScript -->
+    <script src="jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    
+        <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/new-age.min.js"></script>
+    <script src="js/main.js"></script>
+    
+     <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
     </body>
-</html>
+    </html>
