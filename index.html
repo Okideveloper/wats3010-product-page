@@ -22,8 +22,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="js/main.js">
-        <link rel="stylesheet" href="js/jquery.js">
-        <link rel="stylesheet" href="js/jquery.min.js">
+        
 
     </head>
     
@@ -31,39 +30,41 @@
     
     <body>
 
+
       
         <!-- Navbar -->
-         <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
-        <div class="container-fluid">
+         
       
-            <a class="Navbar" href="#"></a>
+           <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+          <div class="container">
+        
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-        
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav ml-auto">
-                <li class="active">
-                  <a class="nav-link btn btn-outline-primary waves-effect" href="#home">Home
+              <ul class="navbar-nav mr-auto smooth-scroll">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home
                     <span class="sr-only">(current)</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link btn btn-outline-primary waves-effect" href="#about" data-offset="90">About</a>
+                  <a class="nav-link" href="#about" data-offset="90">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link btn btn-outline-primary waves-effect"href="#product" data-offset="90">Product</a>
+                  <a class="nav-link"href="#product" data-offset="90">Product</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link btn btn-outline-primary waves-effect" href="#testimonials" data-offset="90">Testimonials</a>
+                  <a class="nav-link" href="#testimonials" data-offset="90">Testimonials</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link btn btn-outline-primary waves-effect" href="#contact" data-offset="30">Contact</a>
+                  <a class="nav-link" href="#contact" data-offset="30">Contact</a>
                 </li>
               </ul>
                 </div>
                  </div>
                  </div>
+                 
             </nav>
                     
                     
@@ -74,8 +75,14 @@
 
 
                    <!--About Section --> 
-        <div class="jumbotron-fluid">
-        <div class="mask rgba-gradient align-items-center" id="home">
+                   
+                   
+
+                   
+<div class="mask rgba-gradient d-flex justify-content-center align-items-center">
+            <!-- Content -->
+            <div class="container px-md-3 px-sm-0">
+              <!--Grid row-->
               <div class="row wow fadeIn">
                 <!--Grid column-->
                 <div class="col-md-12 mb-4 white-text text-center wow fadeIn">
@@ -85,18 +92,16 @@
                      </div>
                       </div>
                        </div>
-                        </div>
-                    
-       
-     
-     
-       <div class="container">
-       <div class="row" id="about">
-        <div class="col-lg-6">
-          <img class="img-fluid rounded-circle float-left" src="images/about-technology.jpg" alt="technology">
+                       </div>
+                       
+    
+      <div class="container">
+      <div class="row" id="about">
+        <div class="col-lg-6"> 
+        <img class="img-fluid rounded-circle float-left" src="images/about-technology.jpg" alt="technology">
         </div>
         
-        <div class="col-lg-6">  
+        <div class="col-lg-6">
           <h2 class="mb-4">About us</h2>
           <p>We are here to serve your needs when looking for an API for your computer or mobile devices. Let’s first touch base what an API is and how you can utilize its functions. Application Programming Interface (API) is a set of routines, protocols and tools for building software applications. This allows the apps on your phone to connect to the internet. Your commands are sent to the server, performs the necessary actions and sends it right back to your phone. <strong>BOOM!</strong>  You have the works of an API!</p>
           </br>
@@ -106,13 +111,12 @@
    </div>
     </div>
       </div>
+      
+      
        
-     <!--/About section-->
-    
-     
-    
+   
    <!--Video-->  
-      <div class="container">
+     <div class="container">
        <h2 class="mb-5">How we can help you!</h2>
      
      <div class="row" id="about">
@@ -124,8 +128,12 @@
          </div>
           </div>
            </div>
+           
+           
                        
       <!--/Video-->
+      <!--/About section-->
+      
       
       
         <!--Product Section-->    
@@ -169,6 +177,7 @@
    
    
    <div class="jumbotron-fluid" id="testimonials">
+   
    <h2 class="display-4">Testimonials</h2>
  
  <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
