@@ -26,15 +26,24 @@ ul {
     list-style-position: inside;
     font-weight:600;
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
+    }
+    
+.product-list  {
+    list-style-position: inside;
+    font-weight:600;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 2px 23px #540000;   
     }
 
     
     .btn-success    {
         position: relative; 
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 24px;
+        font-weight: 500;
         top: 60px;
         left: 30px;
     }
@@ -42,9 +51,9 @@ ul {
 
 p   {
     display: inline-block;
-    font-family: Georgia;
-    font-size: 18px;
-    text-align: center;
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 600;
     } 
     
 

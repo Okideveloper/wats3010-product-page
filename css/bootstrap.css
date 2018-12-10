@@ -35,9 +35,7 @@ header,
 }
 
 
-.btn {
-    margin: 0 15px;
-}
+
 
 .carousel-item  {
     height: 300px;
@@ -46,7 +44,7 @@ header,
 
 .img-fluid {
     position: relative;
-    left: 5px;
+    left: 10px;
     bottom: 40px;
     top: 55px;
 }
